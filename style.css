@@ -13,6 +13,64 @@ body {
     font-weight: 300;
 }
 
+/* nav */
+nav{
+   
+    display: flex;
+    z-index: 1000;
+    justify-content: space-around;
+    top: 0%;
+    position: sticky;
+    height: 90px;
+    background: url(./img/background1.jpeg);
+    
+    
+
+}
+nav h2{
+    margin-right: 180px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 100;
+    
+}
+
+nav h2 a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+
+
+}
+nav ul li{
+    list-style: none;
+    padding: 30px;
+    display: flex;
+
+}
+nav ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+nav ul li a button{
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 90px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+
+
 .whatWe_do {
     /* display: flex; */
     padding-top: 20px;
