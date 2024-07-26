@@ -276,7 +276,7 @@ margin: 0px 35px 0px 35px;
 
 
 footer {
-    background-color: white;
+    background-color: rgb(240, 231, 231);
     height: 160px;
     color: black;
     display: flex;
@@ -298,6 +298,8 @@ footer {
     margin-left: 20%;
     font-size: 20px;
     font-weight: 30px;
+    margin-top: 20px;
+
 
     
 } 
@@ -305,6 +307,8 @@ footer {
 .footer_flex  a {
     text-decoration: none;
     color: black;
+    margin-top: 20px;
+
     
 }
 

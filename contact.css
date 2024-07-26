@@ -70,60 +70,71 @@ nav ul li a button{
     
 }
 
-.h2_ {
+.h2_con {
     text-align: center;
     /* justify-content: center; */
     font-size: 35px;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 5%;
-}
-.amazon{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-    /* margin-left: 2%;
-    margin-right: 2%; */
-}
-.amazon-text h2{
-    font-size: 35px;
-    font-weight: 300;
 }
 
-.Star_Bucks {
+.contact {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
 }
 
-.Star_Bucks-text h2 {
+.contact-text {
+    /* font-size: 35px;
+    font-weight: 300; */
+    margin-left: 10%;
+}
+
+.contact-text h2 {
     font-size: 35px;
-    font-weight: 300;
+
 }
 
-.Nintendo {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+.contact_flex {
+    margin-right: 300px;
+    margin-bottom: 10%;
 }
 
-.nintendo_flex h2 {
-    font-size: 35px;
-    font-weight: 30
+ input {
+   width: 150%;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: white;
+   padding: 12px 20px 12px 40px;
+    
 }
 
-.Vodafone {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-    margin-bottom: 4%;
+textarea {
+    padding: 20px, 300px;
+    width: 150%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+
 }
 
-.Vodafone-text h2 {
-    font-size: 35px;
-    font-weight: 300;
+.btn {
+    width: 30%;
+    height: 10%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
 }
 
-/* footer... */
+.btn:hover {
+    background-color: white;
+    color: black;
+}
 
 footer {
     background-color: rgb(240, 231, 231);
@@ -140,6 +151,7 @@ footer {
     margin-top: 20px;
 
 }
+
 
 .footer li {
     list-style: none;
@@ -159,8 +171,6 @@ footer {
 .footer_flex  a {
     text-decoration: none;
     color: black;
-    margin-top: 20px;
-
     
 }
 
